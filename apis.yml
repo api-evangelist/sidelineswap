@@ -1,8 +1,27 @@
 aid: sidelineswap
 name: SidelineSwap
-description: SidelineSwap is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SidelineSwap is an online marketplace where athletes buy and sell new and used
+  sports equipment across hockey, baseball, softball, lacrosse, football, golf,
+  soccer, skiing, snowboarding and more. Sellers list gear for free, while
+  SidelineSwap handles payments, prepaid shipping labels and buyer protection,
+  and pro shops and teams manage consignment inventory. The company operates a
+  developer portal at developer.sidelineswap.com with a login-gated Inventory API
+  plus REST services on api.sidelineswap.com for identity, commerce and secure
+  payments, enabling partners and pro sellers to sync listings programmatically.
 url: https://raw.githubusercontent.com/api-evangelist/sidelineswap/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sidelineswap.com/_next/static/media/icon-72x72.3rxm6dor5innp.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +30,66 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Marketplace
+- Sports
+- Sporting Goods
+- Ecommerce
+- Commerce
+- Inventory
+- Resale
+- Consignment
+apis:
+- name: SidelineSwap API
+  description: >-
+    Authenticated REST API surface behind the SidelineSwap developer portal —
+    identity (IAM), commerce and secure payments on api.sidelineswap.com, plus a
+    partner Inventory API (developer.sidelineswap.com/api/v1) for syncing
+    pro-seller and consignment listings. Documentation is published in the
+    login-gated developer portal.
+  humanURL: https://developer.sidelineswap.com
+  baseURL: https://api.sidelineswap.com
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.sidelineswap.com
+  - type: Documentation
+    url: https://developer.sidelineswap.com/docs
+  - type: APIReference
+    url: https://developer.sidelineswap.com/docs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sidelineswap-domain-security.yml
+- type: LLMsTxt
+  url: llms/sidelineswap-llms.txt
 - type: Website
   url: https://sidelineswap.com
+- type: DeveloperPortal
+  url: https://developer.sidelineswap.com
+- type: Documentation
+  url: https://developer.sidelineswap.com/docs
+- type: APIReference
+  url: https://developer.sidelineswap.com/docs
+- type: GitHubOrganization
+  url: https://github.com/SidelineSwap
+- type: Support
+  url: https://help.sidelineswap.com
+- type: Blog
+  url: https://sidelineswap.com/blog
+- type: SignUp
+  url: https://sidelineswap.com/register
+- type: TermsOfService
+  url: https://sidelineswap.com/terms
+- type: PrivacyPolicy
+  url: https://sidelineswap.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

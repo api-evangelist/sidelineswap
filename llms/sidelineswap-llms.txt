@@ -1,0 +1,22 @@
+# SidelineSwap
+
+> SidelineSwap is an online marketplace where athletes buy and sell new and used sports equipment across hockey, baseball, softball, lacrosse, football, golf, soccer, skiing, snowboarding and more. Sellers list gear for free, while SidelineSwap handles payments, prepaid shipping labels and buyer protection, and pro shops and teams manage consignment inventory. The company operates a login-gated developer portal with an Inventory API plus REST services for identity, commerce and secure payments.
+
+## APIs
+
+- [SidelineSwap API](https://developer.sidelineswap.com): Authenticated REST API surface — identity (IAM), commerce and secure payments on api.sidelineswap.com, plus a partner Inventory API at developer.sidelineswap.com/api/v1 for syncing pro-seller and consignment listings. Base URL: https://api.sidelineswap.com
+
+## Developer
+
+- [Developer Portal](https://developer.sidelineswap.com): Login-gated developer portal
+- [API Documentation](https://developer.sidelineswap.com/docs): API reference (login required)
+- [GitHub Organization](https://github.com/SidelineSwap): Open-source infrastructure repositories
+
+## Docs
+
+- [Website](https://sidelineswap.com): Marketplace homepage
+- [How It Works](https://sidelineswap.com/how-it-works): Buying and selling overview
+- [Help Center](https://help.sidelineswap.com): Support knowledge base
+- [Blog](https://sidelineswap.com/blog): Company blog
+- [Terms of Service](https://sidelineswap.com/terms)
+- [Privacy Policy](https://sidelineswap.com/privacy)
