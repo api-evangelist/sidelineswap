@@ -2,6 +2,13 @@
   "repo": "sidelineswap",
   "feeds": [
     {
+      "source": "https://sidelineswap.com/blog",
+      "feed_url": "https://sidelineswap.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://help.sidelineswap.com",
       "feed_url": "https://help.sidelineswap.com",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
